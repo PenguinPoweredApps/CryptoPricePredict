@@ -1,0 +1,23 @@
+{
+  "name": "crypto_price_predict",
+  "version": "1.0.0",
+  "description": "Crypto Price Prediction",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "getTrainingData": "cd ./dist && node get_training_data.js",
+    "getPredictionData": "cd ./dist && node get_prediction_data.js",
+    "train": "cd ./dist && node train.js",
+    "predict": "cd ./dist && node predict.js",
+    "trainSequence": "npm run getTrainingData && npm run train",
+    "predictSequence": "npm run getPredictionData && npm run predict"
+  },
+  "author": "Penguin Powered Apps",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.5.0",
+    "danfojs-node": "^1.1.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "yahoo-finance": "^0.3.8"
+  }
+}

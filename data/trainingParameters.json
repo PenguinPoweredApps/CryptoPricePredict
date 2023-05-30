@@ -1,0 +1,1 @@
+{ "epochs": 300, "batchSize": 32, "validationSplit": 0.3, "learningRate": 0.001}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+    "sourceMap": true,
+    "removeComments": true,
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmitOnError": true,
+    "module": "CommonJS",
+    "lib": ["es6", "dom"],
+    "target": "es6",
+    "allowSyntheticDefaultImports": true
+  },
+    "include": [
+        "./src/**/*"
+    ]
+}
